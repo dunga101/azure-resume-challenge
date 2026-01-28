@@ -31,7 +31,7 @@ The resume is hosted using Azure Blob Storage’s Static Website feature, allowi
 │ ├── index.html
 │ └── styles.css
 ├── .gitignore
-└── README.md```
+└── README.md
 
 ---
 
