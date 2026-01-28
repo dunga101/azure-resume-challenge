@@ -26,13 +26,14 @@ The resume is hosted using Azure Blob Storage’s Static Website feature, allowi
 
 ## Repository Structure
 
-```azure-resume-challenge/
+```
+azure-resume-challenge/
 ├── frontend/
 │ ├── index.html
 │ └── styles.css
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Frontend Implementation
