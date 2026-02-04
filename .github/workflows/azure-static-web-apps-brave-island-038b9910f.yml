@@ -28,9 +28,10 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations ######
-          app_location: "frontend"   # Path to your static files
-          api_location: ""           # Leave empty if no Azure Functions
-          output_location: "."        # Crucial for static sites: treat app_location as the output
+          app_location: "frontend"      # Path to your index.html
+          api_location: ""             
+          output_location: ""           # Must be empty when skip_app_build is true
+          skip_app_build: true          # Skips Oryx build engine for pure static HTML
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
