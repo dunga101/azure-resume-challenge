@@ -4,7 +4,7 @@ This project is a cloud-hosted professional resume built using Microsoft Azure.
 It demonstrates practical cloud engineering fundamentals including static web hosting, cost-aware architecture, security-by-default configuration, and disciplined version control.
 
 **Live Resume:**  
-https://azresumestoragedm.z9.web.core.windows.net/
+https://cv.dulanga.dev/
 
 ---
 
